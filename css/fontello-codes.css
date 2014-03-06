@@ -1,0 +1,13 @@
+.icon-clojure:before { content: '\e800'; } /* '' */
+.icon-scala_v2:before { content: '\e80c'; } /* '' */
+.icon-racket:before { content: '\e801'; } /* '' */
+.icon-erlang:before { content: '\e802'; } /* '' */
+.icon-haskell:before { content: '\e803'; } /* '' */
+.icon-lisp:before { content: '\e804'; } /* '' */
+.icon-java:before { content: '\e807'; } /* '' */
+.icon-f:before { content: '\e80a'; } /* '' */
+.icon-elixir:before { content: '\e80b'; } /* '' */
+.icon-ocaml:before { content: '\e806'; } /* '' */
+.icon-riak:before { content: '\e808'; } /* '' */
+.icon-scala:before { content: '\e805'; } /* '' */
+.icon-scheme:before { content: '\e809'; } /* '' */

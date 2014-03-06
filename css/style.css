@@ -1235,3 +1235,10 @@ table {
 .table-striped tbody > tr:nth-child(odd) > th {
     background-color: #f9f9f9;
 }
+
+.lang-icons {
+    color: #bdbdbd;
+    font-size:36px;
+    line-height: 40px;
+    margin: 0.7em;
+}
