@@ -95,7 +95,6 @@
 	
 		.is-highlight .special
 		{
-			margin: 0 0 1em 0;
 		}
 
 		.is-highlight h2
@@ -217,7 +216,7 @@
 
 	#banner-wrapper
 	{
-        margin: 4em 0 3em 0;
+        margin: 4em 0 0 0;
 		padding: 9em 0 8em 0;
 	}
 	

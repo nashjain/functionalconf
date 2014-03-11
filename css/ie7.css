@@ -7,3 +7,9 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
+[class^="lang-icons"]:before, [class*=" lang-icons"]:before {
+    font-family: 'fontello';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0em;
+}
