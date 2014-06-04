@@ -10,6 +10,7 @@
 		<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -28,14 +29,14 @@
     <!-- Nav -->
     <nav id="nav" class="skel-panels-fixed">
         <ul>
-            <li class="current_page_item"><a href="/">Home</a></li>
-            <li><a href="#program">Program</a></li>
-            <li><a href="#registration">Online Registration</a></li>
-            <li><a href="#speaker">Call For Papers</a></li>
-            <li><a href="#important-dates">Important Dates</a></li>
-            <li><a href="#sponsors">Sponsors</a></li>
-            <li><a href="#organisers">Organisers</a></li>
-            <li><a href="#venue">Venue</a></li>
+            <li><a href="#home" id="home-link" class="current_page_item">Home</a></li>
+            <li><a href="#program" id="program-link">Program</a></li>
+            <li><a href="#registration" id="registration-link">Online Registration</a></li>
+            <li><a href="#speaker" id="speaker-link">Call For Papers</a></li>
+            <li><a href="#important-dates" id="important-dates-link">Important Dates</a></li>
+            <li><a href="#sponsors" id="sponsors-link">Sponsors</a></li>
+            <li><a href="#organisers" id="organisers-link">Organisers</a></li>
+            <li><a href="#venue" id="venue-link">Venue</a></li>
         </ul>
     </nav>
     <!-- /Nav -->
@@ -102,7 +103,7 @@
 				<div id="main" class="container">
                     <div class="row">
                         <div class="12u">
-                            <section class="is-features">
+                            <section class="is-features" id="home">
                                 <h2 class="major"><span>Why A Functional Programming Conference?</span></h2>
                                 <p>For over 35 years, functional programming has been a hot research topic. However in the last 5 years, driven by the need to <strong>build massively concurrent systems</strong> and to <strong>handle big-data</strong>, we've experienced a rapid adoption of functional programming concepts by diverse companies, ranging from tech start-ups to financial institutes.</p>
                                 <p>These days, functional programming is at the heart of every, new generation programming technologies. Companies are employing functional programming to enable <strong>more effective, robust, and flexible software development</strong>. This has given birth to a very vibrant community of functional programmers, who are constantly exploring ways to bring functional programming concepts to the world of enterprise software development.</p>

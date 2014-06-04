@@ -340,21 +340,11 @@
 				top: 3px;
 			}
 
-				#nav li:hover a
-				{
-					background: #C1CAC5;
-					color: #fff;
-				}
-
-			#nav li.current_page_item
-			{
-			}
-
-				#nav li.current_page_item a
-				{
-					background: #e3daa8;
-					color: #fff;
-				}
+            #nav li:hover a
+            {
+                background: #C1CAC5;
+                color: #fff;
+            }
 
 /*********************************************************************************/
 /* Banner                                                                        */
