@@ -1291,3 +1291,7 @@ table {
 
 .stripped_table tr:nth-child(even) {background: #EEE}
 .stripped_table tr:nth-child(odd) {background: #FFF}
+
+.sponsors {
+    margin: 2em 0;
+}
