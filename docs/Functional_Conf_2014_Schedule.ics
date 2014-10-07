@@ -1,0 +1,847 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+X-WR-CALNAME:Functional Conf 2014
+PRODID:-//Apple Inc.//Mac OS X 10.9.5//EN
+X-WR-CALDESC:Calendar with the schedule of couple of days of talks.\n\nV
+ enue: The Chancery Pavilion Hotel Bangalore \n#135\, Residency Road\, Ba
+ ngalore - 560 025\, India\n\nDetails: http://functionalconf.com
+X-APPLE-CALENDAR-COLOR:#B90E28
+X-WR-TIMEZONE:Asia/Kolkata
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0630
+DTSTART:19420515T000000
+TZNAME:IST
+TZOFFSETTO:+0530
+RDATE:19420515T000000
+RDATE:19451015T000000
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0530
+DTSTART:19420901T000000
+TZNAME:GMT+5:30
+TZOFFSETTO:+0630
+RDATE:19420901T000000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED:20141007T061530Z
+UID:301CA553-FFD3-437A-87CB-251B0DC4AECA
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/420/ke
+ ynote-the-joy-of-functional-programming
+DTEND;TZID=Asia/Kolkata:20141009T100000
+TRANSP:OPAQUE
+SUMMARY:Keynote - The Joy of Functional Programming by Venkat Subramania
+ m
+DTSTART;TZID=Asia/Kolkata:20141009T090000
+DTSTAMP:20141007T062633Z
+LOCATION:Track 1 (GBR1)
+SEQUENCE:1
+DESCRIPTION:It's been around for a long time\, but everyone's talking ab
+ out it all of a sudden. But why and why now? We've been\n\nprogramming i
+ n languages like Java for a while\, quite well. Now we're asked to chang
+ e and the languages themselves\n\nare changing towards this style of pro
+ gramming. In this keynote\, a passionate polyglot programmer and author 
+ of\n\n"Functional Programming in Java: Harnessing the Power of Java 8 La
+ mbda Expressions" will share the reasons\n\nwe need to make the paradigm
+  shift and the pure joy—the benefits—we will reap from it.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T062542Z
+UID:93850816-C9BD-4474-A8B3-93B4A6F04E11
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/321/fu
+ nctional-programming-in-java
+DTEND;TZID=Asia/Kolkata:20141009T150000
+TRANSP:OPAQUE
+SUMMARY:Functional Programming in Java by Premanand Chandrasekaran
+DTSTART;TZID=Asia/Kolkata:20141009T140000
+DTSTAMP:20141007T062725Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:4
+DESCRIPTION:Functional programming has started (re)gaining prominence in
+  recent years\, and with good reason too. Functional programs lend an el
+ egant solution to the concurrency problem\, result in more modular syste
+ ms\, are more concise and are easier to test. While modern languages lik
+ e Scala and Clojure have embraced the functional style whole-heartedly\,
+  Java has lagged a bit behind in its treatment of functions as first-cla
+ ss citizens. With the advent of Java 8 and its support for lambdas\, how
+ ever\, Java programmers can finally start reaping the power of functiona
+ l programs as well. Even without Java 8\, it is possible to adopt a func
+ tional style with the aid of excellent libraries such as Guava.\n\nThis 
+ talk will explore how to apply functional concepts using the Java progra
+ mming language and demonstrate how it can result in simpler\, more elega
+ nt designs. We will conduct this in a hands-on workshop style with atten
+ dants being encouraged to code-along. So bring your favorite Java 8 awar
+ e IDE\, an open mind and prepare to have a lot of fun.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T062345Z
+UID:774DA2F0-E9ED-44F2-B4AE-8E9CB4885AA7
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/670/tr
+ ansforming-your-c-code-to-functional-style
+DTEND;TZID=Asia/Kolkata:20141009T130000
+TRANSP:OPAQUE
+SUMMARY:Transforming your C# code to Functional Style by Venkat Subraman
+ iam
+DTSTART;TZID=Asia/Kolkata:20141009T121500
+DTSTAMP:20141007T062633Z
+LOCATION:Track 2(GBR2)
+SEQUENCE:1
+DESCRIPTION:Since the introduction of lambda expressions in C#\, we have
+  had two different style of programming. Yet\, programmers used to the h
+ abitual style often find it easy to fall back on those old practices. In
+  this presentation we will take a number of common tasks we code in C#\,
+  discuss the downsides of the habitual style\, transform it into functio
+ nal style\, and discuss the benefits. We will also discuss some techniqu
+ es that can help make this transformation easier on everyday projects.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T061828Z
+UID:9BBB5BE2-E69D-4CB5-BE5B-E99A134E61C8
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/329/fu
+ nctional-reactive-uis-with-elm
+DTEND;TZID=Asia/Kolkata:20141009T120000
+TRANSP:OPAQUE
+SUMMARY:Functional Reactive UIs with Elm by Shashi Gowda
+DTSTART;TZID=Asia/Kolkata:20141009T103000
+DTSTAMP:20141007T062633Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:1
+DESCRIPTION:Elm is a strongly typed functional reactive programming (FRP
+ ) language that compiles to HTML\, CSS\, and Javascript. In Elm\, the Si
+ gnal type represents a time-varying value--things like mouse position\, 
+ keys pressed\, current time are signals. With Signals\, one can write te
+ rse code that is isomorphic to a dataflow diagram of the app. The code h
+ ence feels natural and is 100% callback free. All this\, with powerful t
+ ype inference.\n\nThis talk is an introduction to FRP. It explores funct
+ ionally composing graphics and UIs\, and creating interactions and anima
+ tions with the Signal type. There will also be an overview of Elm’s exec
+ ution mechanism and the time traveling debugger: a consequence of Elm's 
+ purely functional approach.\n\nWhile instructive\, it will be good fun t
+ oo\, in the spirit of Elm.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T062226Z
+UID:79D3EA95-0F56-4FD6-9030-8D46C0DEE334
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/354/ap
+ plying-functional-programming-principles-to-large-scale-data-processing
+DTEND;TZID=Asia/Kolkata:20141009T130000
+TRANSP:OPAQUE
+SUMMARY:Applying functional programming principles to large scale data p
+ rocessing by Kishore Nallan
+DTSTART;TZID=Asia/Kolkata:20141009T121500
+DTSTAMP:20141007T062633Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:1
+DESCRIPTION:At Indix\, we deal with a stream of unstructured and constan
+ tly changing data. This data is processed through a series of systems be
+ fore being fed as structured input to our analytics system. In this talk
+ \, I will walk through our experience of building a large scale data pro
+ cessing system using Hadoop that's focused on immutability\, composition
+  and other functional programming principles.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T062031Z
+UID:85D457F9-2FB1-4A3B-B3F9-3C5A400BDCDA
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/394/ha
+ skell-for-everyday-programmers
+DTEND;TZID=Asia/Kolkata:20141009T120000
+TRANSP:OPAQUE
+SUMMARY:Haskell for Everyday Programmers by Venkat Subramaniam
+DTSTART;TZID=Asia/Kolkata:20141009T103000
+DTSTAMP:20141007T062633Z
+LOCATION:Track 2(GBR2)
+SEQUENCE:1
+DESCRIPTION:I learn different languages not to make use of them\, but to
+  program in my current languages in a better way. As we adapt functional
+  style of programming in mainstream languages\, like Java\, C#\, and C++
+ \, we can learn a great deal from a language that is touted as a purely 
+ functional language.\n\nHaskell is statically typed\, but not in a way l
+ ike Java\, C#\, or C++. Its static typing does not get in the way of pro
+ ductivity. Haskell quietly does lazy evaluation and enforces functional 
+ purity for greater good. Everyday programmers\, like your humble speaker
+ \, who predominantly code in mainstream languages\, can greatly benefit 
+ from learning the idioms and style of this elegant language. The next ti
+ me we sit down to crank out some code in just about any language\, we ca
+ n make use of some of those styles\, within the confines of the language
+ s\, and move towards a better\, functional style.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T062749Z
+UID:DEF21AF1-EE43-40C1-A255-0D473D8CC6BF
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/476/co
+ mpile-your-own-cloud-with-mirage-os-v20
+DTEND;TZID=Asia/Kolkata:20141009T150000
+TRANSP:OPAQUE
+SUMMARY:Compile your own cloud with Mirage OS v2.0 by Thomas Gazagnaire
+DTSTART;TZID=Asia/Kolkata:20141009T140000
+DTSTAMP:20141007T062825Z
+LOCATION:Track 2(GBR2)
+SEQUENCE:4
+DESCRIPTION:Most applications running in the cloud are not optimized to 
+ do so. They make assumptions about the underlying operating system\, res
+ ulting in larger footprints with increased costs and risks.  The open so
+ urce Mirage OS represents a new approach where the application code is c
+ ombined with the specific components of the operating system it needs in
+ to a single-purpose unikernel appliance. With Mirage OS\, developers can
+  create lean and efficient unikernels for secure\, cost-effective and hi
+ gh-performance network applications. Mirage OS unikernels run directly o
+ n the Xen Project hypervisor\, which allows them to be quickly deployed 
+ to many leading cloud platforms.\n\nMirage OS is fully written in OCaml\
+ , from the device drivers and network stack to higher-level synchronisat
+ ion protocols and databases. In this presentation I will explain how we 
+ developed Mirage OS and why we choose to do so in a strongly typed funct
+ ional language with a powerful module langage. I will then present some 
+ of the new features of Mirage OS v2.0 such as: support for ARM devices\,
+  Irmin: a Git-like distributed database and OCaml-TLS: a comprehensive i
+ mplementation of the TLS protocol in pure OCaml. 
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T062852Z
+UID:513CAE22-E859-4332-933A-585431FB9EA1
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/388/fu
+ nctional-programming-in-ruby
+DTEND;TZID=Asia/Kolkata:20141009T160000
+TRANSP:OPAQUE
+SUMMARY:Functional Programming in Ruby by Keith Bennett from
+DTSTART;TZID=Asia/Kolkata:20141009T151500
+DTSTAMP:20141007T063038Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:5
+DESCRIPTION:Although Ruby is not known as a functional language\, it doe
+ s support higher order functions in the form of lambdas and procs. Ruby'
+ s support for both object oriented and functional approaches\, along wit
+ h its conciseness\, clarity\, and expressiveness\, make it an excellent 
+ choice as a general purpose programming language.\n\nThis session\, gear
+ ed toward the functional novice\, shows how to implement functional appr
+ oaches in Ruby\, and shows why you would want to.\n\nTopics covered will
+  include:\n\n- in testing\, using lambdas to verify that certain behavio
+ rs do or do not not raise errors\n- lambdas as predicates\n- deferred ex
+ ecution\n- composite functions\n- nested functions\n- using lambdas to h
+ ide variables\n- functions that return functions (partial application\, 
+ currying)\n- lightweight event handling\n- chaining behavior with lambda
+  arrays\n- how lambdas differ from conventional Ruby methods
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T063058Z
+UID:3C013CF9-94E7-4804-8CAD-25AD124C6051
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/386/pr
+ operty-based-testing-for-functional-domain-models
+DTEND;TZID=Asia/Kolkata:20141009T160000
+TRANSP:OPAQUE
+SUMMARY:Property based testing for functional domain models by Debasish 
+ Ghosh
+DTSTART;TZID=Asia/Kolkata:20141009T151500
+DTSTAMP:20141007T063217Z
+LOCATION:Track 2 (GBR2)
+SEQUENCE:7
+DESCRIPTION:Manual testing is something that's error prone\, incomplete 
+ and impossible to replicate on a large scale. We have instead been using
+  xUnit style of testing for quite some time now. This approach has a num
+ ber of drawbacks like (a) We need to write test cases by hand which agai
+ n doesn't scale for large systems (b) We may miss out some of the edge c
+ ases (c) Safeguarding missing cases with coverage metrics doesn't help\,
+  since metrics are mostly based on heuristics (d) maintaining test cases
+  and test data is a real pain.\n\nIn property based testing we write pro
+ perties and not low level test cases. And let the system generate test c
+ ases which validate such properties. There are 2 main advantages with th
+ is approach:\n\n1. You think in terms of properties (or specifications) 
+ of the domain model which is the right granularity to think about\n2. Yo
+ u don't need to manage test cases\, which is completely done by the syst
+ em that generates a large collection of test data\n\nThis approach is id
+ eal for the functional programming paradigm\, which focuses on pure func
+ tions. Using functional programming it's easier to reason about your mod
+ el - hence it's easier to test functional programs using properties. In 
+ this talk I will take some real world examples of property validation an
+ d verification using scalacheck (the property based testing library for 
+ Scala) and a real world domain model.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T063306Z
+UID:D0460405-1DB8-4DFF-B938-158698AF7836
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/326/cl
+ ojurescript-and-om-pragmatic-functional-programming-in-the-javascript-la
+ nd
+DTEND;TZID=Asia/Kolkata:20141009T171500
+TRANSP:OPAQUE
+SUMMARY:Clojurescript and Om - Pragmatic functional programming in the J
+ avascript Land by Vagmi Mudumbai from
+DTSTART;TZID=Asia/Kolkata:20141009T161500
+DTSTAMP:20141007T063353Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:4
+DESCRIPTION:Javascript programmers have had a lot of choices when it com
+ es to programming. There were days of mootools\, scriptaculous and jQuer
+ y and then there are now days of Angular\, Ember\, Knockout and the like
+ . As a javascript programmer myself\, I find that Clojurescript/React as
+  Om offers a fresh perspective into building performant Javascript UIs t
+ hat are easy to write.\n\nThe talk will introduced concepts of React\, i
+ mmutable datastructures in Clojure and live code an application that dem
+ onstrates the concepts.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T063416Z
+UID:FB8CE6C4-B817-4E3D-A7D8-1EB57327305A
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/385/co
+ de-jugalbandi
+DTEND;TZID=Asia/Kolkata:20141009T171500
+TRANSP:OPAQUE
+SUMMARY:Code Jugalbandi by Dhaval Dalal and Ryan Lemmer from
+DTSTART;TZID=Asia/Kolkata:20141009T161500
+DTSTAMP:20141007T063445Z
+LOCATION:Track 2(GBR2)
+SEQUENCE:4
+DESCRIPTION:In Indian classical music\, we have Jugalbandi\, where two l
+ ead musicians or vocalist engage in a playful competition. There is juga
+ lbandi between Flutist and a Percussionist (say using Tabla as the instr
+ ument). Compositions rendered by flutist will be heard by the percussion
+ ist and will replay the same notes\, but now on Tabla and vice-versa is 
+ also possible.\n\nIn a similar way\, we will perform Code Jugalbandi to 
+ see how the solution looks using different programming languages and par
+ adigms.\n\nDuring the session\, Dhaval and Ryan will take turns at codin
+ g the same problem using different languages and paradigms. There would 
+ be multiple such rounds during the Jugalbandi.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T063516Z
+UID:CB1ACD8E-A9DC-482D-9A57-4214DCF61060
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/328/di
+ scovering-functional-treasure-in-idiomatic-groovy
+DTEND;TZID=Asia/Kolkata:20141009T181500
+TRANSP:OPAQUE
+SUMMARY:Discovering Functional Treasure in Idiomatic Groovy by Naresha K
+ 
+DTSTART;TZID=Asia/Kolkata:20141009T173000
+DTSTAMP:20141007T063602Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:5
+DESCRIPTION:Groovy is a dynamic language on the JVM. Groovy supports pro
+ gramming in multiple paradigms - imperative\, object oriented and even f
+ unctional programming. \n\nWhen I started using Groovy with Java backgro
+ und\, the code used to be mostly imperative. As I explored the language 
+ in detail\, I realized the power of idiomatic code. While the attempt to
+  write idiomatic Groovy code helped me to realise the benefits of functi
+ onal approach\, thinking functionally resulted in better code too.\n\nIn
+  this talk\, I will demonstrate functional programming constructs in Gro
+ ovy and show how to use them effectively. I will provide plently of exam
+ ples to help the audience realize the benefits.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T063640Z
+UID:5E1866A3-9E2C-4E0E-9304-1E14903A7392
+URL;VALUE=URI:http://www.confengine.com/functional-conf-2014/proposal/32
+ 0/learning-from-haskell-an-experience-report
+DTEND;TZID=Asia/Kolkata:20141009T181500
+TRANSP:OPAQUE
+SUMMARY:Learning (from) Haskell - An experience report by Aditya Godbole
+ 
+DTSTART;TZID=Asia/Kolkata:20141009T173000
+DTSTAMP:20141007T063712Z
+LOCATION:Track 2(GBR2)
+SEQUENCE:4
+DESCRIPTION:Functional programming as a programming style and discipline
+  is useful even in languages which are not pure functional languages. By
+  practising programming in a pure functional language like Haskell\, pro
+ grammers can drastically improve the quality of code when coding in othe
+ r languages as well.\n\nThe talk is based on first hand experience of us
+ ing Haskell in internal courses in our organisation to improve code qual
+ ity.\n\nThis talk will cover Gofer (one of the earliest variants of Hask
+ ell) as a teaching tool\, including the choice of the language\, the fea
+ tures from Haskell that should (and shouldn't) be covered and the obstac
+ les and benefits of the exercise.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T063738Z
+UID:8FF749FC-25BC-4AED-9C0A-E1165643AF0A
+DTEND;TZID=Asia/Kolkata:20141009T193000
+TRANSP:OPAQUE
+SUMMARY:Fish Bowl
+DTSTART;TZID=Asia/Kolkata:20141009T183000
+DTSTAMP:20141007T064323Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:4
+URL;VALUE=URI:http://en.wikipedia.org/wiki/Fishbowl_(conversation)
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T063857Z
+UID:54273ECD-CCF0-4E83-B871-6AE22C17963F
+DTEND;TZID=Asia/Kolkata:20141009T090000
+TRANSP:OPAQUE
+SUMMARY:Registration
+DTSTART;TZID=Asia/Kolkata:20141009T083000
+DTSTAMP:20141007T063857Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T063920Z
+UID:D3C61A70-A96B-4113-9470-B4D4B8842CB4
+DTEND;TZID=Asia/Kolkata:20141009T101500
+TRANSP:OPAQUE
+SUMMARY:Welcome Address
+DTSTART;TZID=Asia/Kolkata:20141009T100000
+DTSTAMP:20141007T063929Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T063951Z
+UID:6CCEC68C-23A9-45BB-92DB-CAD8031293E0
+DTEND;TZID=Asia/Kolkata:20141009T103000
+TRANSP:OPAQUE
+SUMMARY:Coffee/Tea Break
+DTSTART;TZID=Asia/Kolkata:20141009T101500
+DTSTAMP:20141007T063951Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T064017Z
+UID:70E8C4B0-83C0-496C-AE88-2C691F13CA14
+DTEND;TZID=Asia/Kolkata:20141009T121500
+TRANSP:OPAQUE
+SUMMARY:Break
+DTSTART;TZID=Asia/Kolkata:20141009T120000
+DTSTAMP:20141007T064027Z
+SEQUENCE:4
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T064050Z
+UID:4C3C3844-6513-4731-8065-D74EC918308B
+DTEND;TZID=Asia/Kolkata:20141009T140000
+TRANSP:OPAQUE
+SUMMARY:Lunch
+DTSTART;TZID=Asia/Kolkata:20141009T130000
+DTSTAMP:20141007T064050Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T064122Z
+UID:0501F8A4-957F-4D42-9638-946391462CFA
+DTEND;TZID=Asia/Kolkata:20141009T151500
+TRANSP:OPAQUE
+SUMMARY:Coffee/Tea Break
+DTSTART;TZID=Asia/Kolkata:20141009T150000
+DTSTAMP:20141007T064122Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T064143Z
+UID:843FC2AE-C3F9-427C-9E0C-C0BFD715F576
+DTEND;TZID=Asia/Kolkata:20141009T161500
+TRANSP:OPAQUE
+SUMMARY:Break
+DTSTART;TZID=Asia/Kolkata:20141009T160000
+DTSTAMP:20141007T064143Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T064200Z
+UID:076DCBFA-B873-43E0-AE8D-0CD88CAFDF55
+DTEND;TZID=Asia/Kolkata:20141009T173000
+TRANSP:OPAQUE
+SUMMARY:Break
+DTSTART;TZID=Asia/Kolkata:20141009T171500
+DTSTAMP:20141007T064315Z
+SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T064220Z
+UID:43D6AC41-844F-4659-8F71-CF62B0DD71FA
+DTEND;TZID=Asia/Kolkata:20141009T183000
+TRANSP:OPAQUE
+SUMMARY:Break
+DTSTART;TZID=Asia/Kolkata:20141009T181500
+DTSTAMP:20141007T064309Z
+SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T064508Z
+UID:9D8DA9A3-2CF1-4EEE-8877-3697AD7A7ED3
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/711/fe
+ ar-the-role-of-fear-in-language-adoption
+DTEND;TZID=Asia/Kolkata:20141010T100000
+TRANSP:OPAQUE
+SUMMARY:Keynote - Fear: The Role of Fear in Language Adoption by Bruce T
+ ate
+DTSTART;TZID=Asia/Kolkata:20141010T090000
+DTSTAMP:20141007T064545Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:5
+DESCRIPTION:Old languages emerge and new languages are born when big thi
+ ngs happen\, and big things are happening now. In this keynote\, we'll l
+ ook at some of the biggest challenges facing programming evolution\, and
+  their likely impacts on programming.\n\nFunctional Programming Language
+ s have a prominent role\, but also there are interesting things happenin
+ g in the browser and a pendulum shift toward better type models.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T064616Z
+UID:A0D55DA7-F3A0-4998-898F-A497B328CF6E
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/690/th
+ inking-in-linq
+DTEND;TZID=Asia/Kolkata:20141010T113000
+TRANSP:OPAQUE
+SUMMARY:Thinking in LINQ by Sudipta Mukherjee
+DTSTART;TZID=Asia/Kolkata:20141010T103000
+DTSTAMP:20141007T064700Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:5
+DESCRIPTION:LINQ draws on principles of functional programming and repre
+ sents a paradigm shift for developers used to an imperative/object orien
+ ted programming style. Thinking in LINQ explains the benefits of functio
+ nal programming built into LINQ\, allowing developers to use these techn
+ iques write more efficient and concise data-intensive applications.\n\nW
+ hile other books on the subject merely scratch the surface in terms of p
+ roblem solving using LINQ\, Thinking in LINQ shows readers how use funct
+ ional programming techniques to solve common every-day problems as well 
+ as more complex problems using LINQ’s features.\n\nLINQ lets you write c
+ ode that resembles natural language and is easier to debug compared to t
+ raditional loops and branching statements. The purpose of a well written
+  LINQ Query will be immediately evident unlike the looping construct so 
+ commonly used in traditional programming. LINQ operators can be used in 
+ unison to orchestrate a solution for complex real world problems.\n\nWha
+ t viewers will learn\n\n- Text Processing using LINQ\n- Refactoring usin
+ g LINQ\n- Monitoring code health using LINQ\n- Creating DSL using LINQ
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T064724Z
+UID:30C6A68A-C173-44A8-A074-B29E9781E5D1
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/436/pr
+ agmatic-functional-programming-using-dyalog
+DTEND;TZID=Asia/Kolkata:20141010T113000
+TRANSP:OPAQUE
+SUMMARY:Pragmatic Functional Programming using Dyalog by Morten Kromberg
+ 
+DTSTART;TZID=Asia/Kolkata:20141010T103000
+DTSTAMP:20141007T064801Z
+LOCATION:Track 2(GBR2)
+SEQUENCE:5
+DESCRIPTION:APL is a member of the family of languages that are approach
+ ing middle age (Ken Iverson’s book titled “A Programming Language” was p
+ ublished in 1962). APL was very influential in the 60’s and 70’s\, and w
+ idely used to deliver “end user computing” - but although the REPL\, dyn
+ amic scope and lack of a type system endeared APL to domain experts\, it
+  also drew fire from computer scientists\, most famously when Edsger Dij
+ kstra declared that “APL is a mistake\, carried through to perfection. I
+ t is the language of the future for the programming techniques of the pa
+ st it creates a new generation of coding bums.”\n\nDyalog is a modern\, 
+ array-first\, multi-paradigm programming language\, which supports funct
+ ional\, object-oriented and imperative programming based on an APL langu
+ age kernel. Dyalog allows people with good ideas – from bright high scho
+ ol students to PhDs – to contribute directly to the software development
+  process using a notation which fits comfortably with those used in thei
+ r own domains. Subject matter experts can write prototypes or\, with sui
+ table training and/or support\, highly efficient\, parallel and robust c
+ ode that can be embedded in high-performance production applications.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T064841Z
+UID:2BE1DC44-4A3B-44E7-BDC9-AB17D5406997
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/322/wr
+ iting-and-improving-tail-recursive-functions
+DTEND;TZID=Asia/Kolkata:20141010T123000
+TRANSP:OPAQUE
+SUMMARY:Writing and improving tail recursive functions by Bhasker Kode
+DTSTART;TZID=Asia/Kolkata:20141010T114500
+DTSTAMP:20141007T064914Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:4
+DESCRIPTION:Brief history of recursion \n\nSnippets from a few languages
+ \n\nWhat is tail recursion?\n\nDesign choices around recursion\n\nThe im
+ portance of tail recursion in erlang\n\nHow do you profile such improvem
+ ents?
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T064935Z
+UID:DC26A56B-BC8C-4B2D-8F59-3DC368A8EA45
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/437/mo
+ nads-you-already-use-without-knowing-it
+DTEND;TZID=Asia/Kolkata:20141010T123000
+TRANSP:OPAQUE
+SUMMARY:Monads you already use (without knowing it) by Tejas Dinkar
+DTSTART;TZID=Asia/Kolkata:20141010T114500
+DTSTAMP:20141007T065133Z
+LOCATION:Track 2(GBR2)
+SEQUENCE:4
+DESCRIPTION:Monads are a little bit like Quantum Physics: If you think y
+ ou understand quantum mechanics\, you don't understand quantum mechanics
+ .\n\nMonads are very useful for chaining computation together\, in a sim
+ ple way. The best explanation I've heard for them so far is that they ar
+ e `programmable semicolons'.\n\nIn this session\, I'll describe a few pa
+ tterns that are solved by monads in some FP languages\, and how you are 
+ already using them.\n\nSome monads I plan to cover:\n\n* Maybe Monad (be
+ ing the easiest to explain)\n\n* List monad\, and how it is used to mode
+ l non-determinism\n\n* The state monad\n\n* The IO monad\n\nAnd maybe a 
+ few others
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T065025Z
+UID:1BE4AD69-A4AD-4762-82AF-534D5B215FB9
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/325/pu
+ rely-functional-data-structures-demystified
+DTEND;TZID=Asia/Kolkata:20141010T141500
+TRANSP:OPAQUE
+SUMMARY:Purely functional data structures demystified by Mohit Thatte
+DTSTART;TZID=Asia/Kolkata:20141010T133000
+DTSTAMP:20141007T065124Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:4
+DESCRIPTION:Immutable\, persistent data structures form a big part of th
+ e value proposition of most functional programming languages.\n\nIt is i
+ mportant to understand why these data structures are useful and how they
+  make it easier to reason about your program. \n\nIt is also instructive
+  to see how these data structures are implemented to get a greater appre
+ ciation for the inherent tradeoffs between performance and immutability.
+ \n\nIn this talk I will do a walkthrough of some of these data structure
+ s drawing from the work of Chris Okasaki[1]\, and attempt to explain the
+  essential ideas in a simple way. 
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T065108Z
+UID:F025C674-F9AA-4403-8425-6FDA947014DE
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/387/re
+ altime-distributed-computing-dealing-with-time-and-failure-in-the-wild
+DTEND;TZID=Asia/Kolkata:20141010T141500
+TRANSP:OPAQUE
+SUMMARY:Distributed computing: dealing with Time and Failure in the wild
+  by Ryan Lemmer
+DTSTART;TZID=Asia/Kolkata:20141010T133000
+DTSTAMP:20141007T065206Z
+LOCATION:Track 2(GBR2)
+SEQUENCE:4
+DESCRIPTION:There is a growing need for scalable\, realtime business sys
+ tems that are continuously running and highly-available. Two very differ
+ ent frameworks/approaches you could use to build such systems are Storm 
+ and Akka.\n\nSystems created with Storm or Akka are distributed\, at run
+ time\, on as many machines as you choose. The inherent concurrency impli
+ ed by this brings the issues of State\, Time and Failure into sharp focu
+ s. Functional programming has much to say about dealing with state and t
+ ime\; not surprisingly\, both Storm and Akka have strong roots in functi
+ onal languages (for Storm it is Clojure\, and for Akka\, Scala).\n\nIn t
+ his talk we'll explore the core concepts and challenges of distributed c
+ omputation\; the role of functional programming in concurrent distribute
+ d computing\; we'll take a look at Storm and Akka\, by example\, and see
+  that as different as these 2 approaches are\, the underlying difficulti
+ es of distributed computation remains evident in both: dealing with time
+ \, and dealing with failure.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T065236Z
+UID:758D4B4B-4598-4A64-BE97-271CCC06FB4A
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/359/-a
+ n-introduction-to-continuation-passing-style-cps
+DTEND;TZID=Asia/Kolkata:20141010T153000
+TRANSP:OPAQUE
+SUMMARY:An introduction to Continuation Passing Style (CPS) by Ramakrish
+ nan Muthukrishnan
+DTSTART;TZID=Asia/Kolkata:20141010T143000
+DTSTAMP:20141007T065305Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:4
+DESCRIPTION:Traditionally functions return some value. Someone is waitin
+ g for that value and does some computation with it. This "someone" is ca
+ lled the continuation of this value. In a normal functional call\, the c
+ ontinuation is "implicit". In the "continuation passing style" (hence fo
+ rth called with the short form\, CPS)\, we make the continuations explic
+ it. In this style\, function definitions take an extra argument called "
+ continuation" and it never return. The "return value" of the function 'c
+ ontinues' by passing this value as an argument to the continuation. Cont
+ inuations are sometimes called "gotos with arguments".\n\nCPS is used as
+  an intermediate stage while compiling a program since it makes the cont
+ rol structure of the program explicit and hence can be converted easily 
+ to machine code. Another feature of a CPS-transformed function is that i
+ t is tail-recursive even if the original function was not written in a t
+ ail-recursive style.\n\nContinuations enable a programmer to build new c
+ ontrol operators (if the language's built-in operators does not already 
+ provide the control operators the programmer need).
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T065332Z
+UID:ADE0211A-84CF-4252-BBC2-84DAB0CF1FD0
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/383/de
+ mystify-the-reactive-jargons
+DTEND;TZID=Asia/Kolkata:20141010T153000
+TRANSP:OPAQUE
+SUMMARY:Demystify the Reactive Jargons by Mushtaq Ahmed
+DTSTART;TZID=Asia/Kolkata:20141010T143000
+DTSTAMP:20141007T065456Z
+LOCATION:Track 2(GBR2)
+SEQUENCE:4
+DESCRIPTION:Sync\, Async\, Blocking\, Non-Blocking\, Streaming are the b
+ uzzwords in the reactive programming world. This talk will attempt to at
+ tach some meaning to them. It will also demo the performance and resourc
+ e consumption patterns for blocking-io\, Scala Futures and RxJava Observ
+ ables for comparable programs. Finally\, a command line application that
+  consumes twitter streams API will demo what is possible using the new r
+ eactive abstractions.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T065432Z
+UID:CD745B3A-F4A7-43FA-92CC-08D2C1A5CD26
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/452/el
+ ixir-today-a-round-up-on-state-of-elixir-and-its-ecosystem
+DTEND;TZID=Asia/Kolkata:20141010T164500
+TRANSP:OPAQUE
+SUMMARY:Elixir : a round-up on state of Elixir and it's ecosystem by Aka
+ sh Manohar
+DTSTART;TZID=Asia/Kolkata:20141010T154500
+DTSTAMP:20141007T065530Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:4
+DESCRIPTION:Elixir is a functional and dynamic language built on top of 
+ the Erlang VM. The development of the language is happening at a fast pa
+ ce. People in the community have participated actively to write tools an
+ d libraries\, required to write real-world apps in Eilxir.\n\nIn this ta
+ lk\, I will attempt to skim through all the new features in Elixir\, a f
+ ew important libraries with short examples and some learning resources.\
+ n\nEach tool showcased in this talk\, will have a 3-step tryout\, with t
+ he simplest example.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T065735Z
+UID:D206FB63-1BED-4560-97D9-26435D95705C
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/412/ob
+ ject-functional-programming-beautiful-unification-or-a-kitchen-sink
+DTEND;TZID=Asia/Kolkata:20141010T164500
+TRANSP:OPAQUE
+SUMMARY:Object-functional programming: Beautiful unification or a kitche
+ n sink? by Rahul Goma Phulore
+DTSTART;TZID=Asia/Kolkata:20141010T154500
+DTSTAMP:20141007T065819Z
+LOCATION:Track 2(GBR2)
+SEQUENCE:4
+DESCRIPTION:Scala began its life as an experiment to “unify” object-orie
+ nted programming and functional programming. Martin Odersky believed tha
+ t the differences between FP and OO are more cultural than technical\, a
+ nd that there was a room for beautifully unify various ideas from the tw
+ o into one simple core.\n\nHow successful has Scala been in its goals? I
+ s it the like “the grand unified theory of universe” or like the infamou
+ s “vegetarian ham”? [1]\n\nIn this talk\, we will see just how Scala uni
+ fies various ideas – such as type-classes\, algebraic data types\, first
+ -class modules\, functions under one simple core comprising of traits\, 
+ objects\, implicits\, and open recursion. We will how this unification u
+ nintendedly subsumes many concepts that require seprate features in othe
+ r languages\, such as functional dependencies\, type families\, GADTs in
+  Haskell. We will see how this has given a rise to a new “implicit calcu
+ lus”\, which could lay a foundation for next generation of generic progr
+ amming techniques.\n\nWe will see that this unification comes at a certa
+ in cost\, wherein it leads to some compromises on both sides. However ma
+ ny of these trade-offs are particular to Scala (largely due to the JVM i
+ mposed restrictions). The goal of unification is still noble\, and we ne
+ ed not throw the baby out with the bathwater.\n\n[1]: https://twitter.co
+ m/bos31337/status/425524860345778176
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T065902Z
+UID:C651025B-3155-45E4-B1D6-8A4724776A96
+URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/712/me
+ thodologies-mathematics-and-the-metalinguistic-implications-of-swift
+DTEND;TZID=Asia/Kolkata:20141010T180000
+TRANSP:OPAQUE
+SUMMARY:Keynote - Methodologies\, Mathematics\, and the Metalinguistic I
+ mplications of Swift by Daniel Steinberg
+DTSTART;TZID=Asia/Kolkata:20141010T170000
+DTSTAMP:20141007T070028Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:6
+DESCRIPTION:The rules we agree on define the games we play. We see this 
+ in methodologies we adopt for software development\, in the mathematics 
+ we were forced to learn in high school\, and in the syntax and grammar o
+ f the languages we choose to use. During this talk we'll explore cases i
+ n which the implication of axioms are clear and cases in which they are 
+ far from clear. There will be a quiz.
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T070059Z
+UID:CA862C9D-DDD0-47C3-B396-D7A9D6EDFEE5
+DTEND;TZID=Asia/Kolkata:20141010T181500
+TRANSP:OPAQUE
+SUMMARY:Closing Talk
+DTSTART;TZID=Asia/Kolkata:20141010T180000
+DTSTAMP:20141007T070059Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T070256Z
+UID:5D8AAC56-19C2-4556-9CA9-1EC0F768987E
+DTEND;TZID=Asia/Kolkata:20141010T170000
+TRANSP:OPAQUE
+SUMMARY:Break
+DTSTART;TZID=Asia/Kolkata:20141010T164500
+DTSTAMP:20141007T070256Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T070322Z
+UID:04F9BE69-8378-464F-8EE2-970BF13D7410
+DTEND;TZID=Asia/Kolkata:20141010T154500
+TRANSP:OPAQUE
+SUMMARY:Coffee/Tea Break
+DTSTART;TZID=Asia/Kolkata:20141010T153000
+DTSTAMP:20141007T070322Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T070408Z
+UID:B4B42E5E-9818-4F7C-AE24-AE205010ED2A
+DTEND;TZID=Asia/Kolkata:20141010T143000
+TRANSP:OPAQUE
+SUMMARY:Break
+DTSTART;TZID=Asia/Kolkata:20141010T141500
+DTSTAMP:20141007T070408Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T070424Z
+UID:97151ED7-A146-41B8-9337-0988C26DAEC9
+DTEND;TZID=Asia/Kolkata:20141010T133000
+TRANSP:OPAQUE
+SUMMARY:Lunch Break
+DTSTART;TZID=Asia/Kolkata:20141010T123000
+DTSTAMP:20141007T070424Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T070438Z
+UID:6AF392DD-5EE9-4709-BD78-35A2A3B76AFA
+DTEND;TZID=Asia/Kolkata:20141010T114500
+TRANSP:OPAQUE
+SUMMARY:Break
+DTSTART;TZID=Asia/Kolkata:20141010T113000
+DTSTAMP:20141007T070438Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T070457Z
+UID:9D8BEBCE-8B6A-41CE-93C7-E531122A69A5
+DTEND;TZID=Asia/Kolkata:20141010T103000
+TRANSP:OPAQUE
+SUMMARY:Coffee/Tea Break
+DTSTART;TZID=Asia/Kolkata:20141010T101500
+DTSTAMP:20141007T070457Z
+SEQUENCE:1
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T070513Z
+UID:5BD41B94-483D-4DF0-9A68-74FB20697451
+DTEND;TZID=Asia/Kolkata:20141010T101500
+TRANSP:OPAQUE
+SUMMARY:Important Announcements
+DTSTART;TZID=Asia/Kolkata:20141010T100000
+DTSTAMP:20141007T070522Z
+LOCATION:Track 1(GBR1)
+SEQUENCE:2
+END:VEVENT
+BEGIN:VEVENT
+CREATED:20141007T070619Z
+UID:4410AC6E-D2BC-4DFB-B3D5-3617F36708AE
+DTEND;TZID=Asia/Kolkata:20141009T220000
+TRANSP:OPAQUE
+SUMMARY:Dinner & Networking
+DTSTART;TZID=Asia/Kolkata:20141009T193000
+DTSTAMP:20141007T070619Z
+SEQUENCE:1
+END:VEVENT
+END:VCALENDAR
