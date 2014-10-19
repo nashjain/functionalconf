@@ -62,6 +62,11 @@ page-index
         <li>practitioners can meet peers and exchange their experience</li>
         <li>experts can share their expertise on practical usage and gotchas in functional programming concepts</li>
       </ul>
+
+        <a href="https://plus.google.com/photos/116032120924821459278/albums/6068264927757876177" target="_blank">
+            <div class="pictures"></div>
+        </a>
+
     </div>
     <div class="large-4 columns bookmark">
       <div class="social-wrapper dark">
@@ -247,4 +252,16 @@ page-index
     </div>
   </div>
 </div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/static/js/jquery.googleslides.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".pictures").googleslides({
+            userid: '116032120924821459278',
+            albumid: '6068264927757876177'
+        });
+    });
+</script>
 {% endblock %}
