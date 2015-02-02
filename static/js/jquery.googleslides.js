@@ -7,7 +7,7 @@
 			  'userid'			 : '116032120924821459278',
 			  'albumid'			 : '6068264927757876177',
 			  'authkey' 		 : '',
-			  'imgmax'           : 700,
+			  'imgmax'           : 450,
 			  'maxresults'		 : 50,
 			  'random'			 : false,
 			  'caption'			 : false,
