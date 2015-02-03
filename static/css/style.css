@@ -2312,7 +2312,7 @@ b, strong {
 }
 /* line 96, ../../scss/style.scss */
 .dark a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.75);
 }
 /* line 98, ../../scss/style.scss */
 .dark a:hover {
@@ -2494,13 +2494,13 @@ b, strong {
   font-size: 20px;
   text-transform: uppercase;
   padding: 16px 32px;
-  background: rgba(0, 0, 0, 0.15);
-  color: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.35);
+  color: rgba(255, 255, 255, 0.75);
   cursor: pointer;
 }
 /* line 230, ../../scss/style.scss */
 .button:hover {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.95);
   background: rgba(0, 0, 0, 0.5);
 }
 /* line 234, ../../scss/style.scss */

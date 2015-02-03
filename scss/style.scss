@@ -225,10 +225,10 @@ b, strong {
     text-transform: uppercase;
     padding: 16px 32px;
     background: rgba(0,0,0,0.15);
-    color: rgba($color-white, 0.5);
+    color: rgba($color-white, 0.75);
     cursor: pointer;
     &:hover {
-        color: rgba($color-white, 0.75);
+        color: rgba($color-white, 0.95);
         background: rgba(0,0,0,0.5);
     }
     &.dark {
