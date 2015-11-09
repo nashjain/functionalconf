@@ -5,7 +5,7 @@ from jinja2 import Environment, FileSystemLoader
 PUBLISH_ROOT = '.'
 JINJA_ENV = Environment(loader=FileSystemLoader('templates'))
 
-templates = ["index.html", "about.html", "register.html", "schedule.html", "speaker.html", "sponsor.html", "venue.html", "2014/index.html", "2014/schedule.html", "2014/sponsor.html"]
+templates = ["index.html", "about.html", "register.html", "schedule.html", "archive.html", "speaker.html", "sponsor.html", "venue.html", "2015/index.html", "2015/schedule.html", "2015/sponsor.html", "2014/index.html", "2014/schedule.html", "2014/sponsor.html"]
 
 for template_file in templates:
     template = JINJA_ENV.get_template("%s" % template_file)
