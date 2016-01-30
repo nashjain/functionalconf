@@ -30,7 +30,7 @@ END:VTIMEZONE
 BEGIN:VEVENT
 CREATED:20141007T061530Z
 UID:301CA553-FFD3-437A-87CB-251B0DC4AECA
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/420/ke
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/420/ke
  ynote-the-joy-of-functional-programming
 DTEND;TZID=Asia/Kolkata:20141009T100000
 TRANSP:OPAQUE
@@ -52,7 +52,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T062542Z
 UID:93850816-C9BD-4474-A8B3-93B4A6F04E11
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/321/fu
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/321/fu
  nctional-programming-in-java
 DTEND;TZID=Asia/Kolkata:20141009T150000
 TRANSP:OPAQUE
@@ -80,7 +80,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T062345Z
 UID:774DA2F0-E9ED-44F2-B4AE-8E9CB4885AA7
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/670/tr
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/670/tr
  ansforming-your-c-code-to-functional-style
 DTEND;TZID=Asia/Kolkata:20141009T130000
 TRANSP:OPAQUE
@@ -101,7 +101,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T061828Z
 UID:9BBB5BE2-E69D-4CB5-BE5B-E99A134E61C8
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/329/fu
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/329/fu
  nctional-reactive-uis-with-elm
 DTEND;TZID=Asia/Kolkata:20141009T120000
 TRANSP:OPAQUE
@@ -126,7 +126,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T062226Z
 UID:79D3EA95-0F56-4FD6-9030-8D46C0DEE334
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/354/ap
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/354/ap
  plying-functional-programming-principles-to-large-scale-data-processing
 DTEND;TZID=Asia/Kolkata:20141009T130000
 TRANSP:OPAQUE
@@ -146,7 +146,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T062031Z
 UID:85D457F9-2FB1-4A3B-B3F9-3C5A400BDCDA
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/394/ha
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/394/ha
  skell-for-everyday-programmers
 DTEND;TZID=Asia/Kolkata:20141009T120000
 TRANSP:OPAQUE
@@ -172,7 +172,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T062749Z
 UID:DEF21AF1-EE43-40C1-A255-0D473D8CC6BF
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/476/co
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/476/co
  mpile-your-own-cloud-with-mirage-os-v20
 DTEND;TZID=Asia/Kolkata:20141009T150000
 TRANSP:OPAQUE
@@ -202,7 +202,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T062852Z
 UID:513CAE22-E859-4332-933A-585431FB9EA1
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/388/fu
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/388/fu
  nctional-programming-in-ruby
 DTEND;TZID=Asia/Kolkata:20141009T160000
 TRANSP:OPAQUE
@@ -228,7 +228,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T063058Z
 UID:3C013CF9-94E7-4804-8CAD-25AD124C6051
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/386/pr
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/386/pr
  operty-based-testing-for-functional-domain-models
 DTEND;TZID=Asia/Kolkata:20141009T160000
 TRANSP:OPAQUE
@@ -262,7 +262,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T063306Z
 UID:D0460405-1DB8-4DFF-B938-158698AF7836
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/326/cl
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/326/cl
  ojurescript-and-om-pragmatic-functional-programming-in-the-javascript-la
  nd
 DTEND;TZID=Asia/Kolkata:20141009T171500
@@ -285,7 +285,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T063416Z
 UID:FB8CE6C4-B817-4E3D-A7D8-1EB57327305A
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/385/co
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/385/co
  de-jugalbandi
 DTEND;TZID=Asia/Kolkata:20141009T171500
 TRANSP:OPAQUE
@@ -308,7 +308,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T063516Z
 UID:CB1ACD8E-A9DC-482D-9A57-4214DCF61060
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/328/di
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/328/di
  scovering-functional-treasure-in-idiomatic-groovy
 DTEND;TZID=Asia/Kolkata:20141009T181500
 TRANSP:OPAQUE
@@ -459,7 +459,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T064508Z
 UID:9D8DA9A3-2CF1-4EEE-8877-3697AD7A7ED3
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/711/fe
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/711/fe
  ar-the-role-of-fear-in-language-adoption
 DTEND;TZID=Asia/Kolkata:20141010T100000
 TRANSP:OPAQUE
@@ -479,7 +479,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T064616Z
 UID:A0D55DA7-F3A0-4998-898F-A497B328CF6E
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/690/th
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/690/th
  inking-in-linq
 DTEND;TZID=Asia/Kolkata:20141010T113000
 TRANSP:OPAQUE
@@ -508,7 +508,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T064724Z
 UID:30C6A68A-C173-44A8-A074-B29E9781E5D1
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/436/pr
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/436/pr
  agmatic-functional-programming-using-dyalog
 DTEND;TZID=Asia/Kolkata:20141010T113000
 TRANSP:OPAQUE
@@ -539,7 +539,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T064841Z
 UID:2BE1DC44-4A3B-44E7-BDC9-AB17D5406997
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/322/wr
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/322/wr
  iting-and-improving-tail-recursive-functions
 DTEND;TZID=Asia/Kolkata:20141010T123000
 TRANSP:OPAQUE
@@ -556,7 +556,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T064935Z
 UID:DC26A56B-BC8C-4B2D-8F59-3DC368A8EA45
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/437/mo
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/437/mo
  nads-you-already-use-without-knowing-it
 DTEND;TZID=Asia/Kolkata:20141010T123000
 TRANSP:OPAQUE
@@ -579,7 +579,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T065025Z
 UID:1BE4AD69-A4AD-4762-82AF-534D5B215FB9
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/325/pu
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/325/pu
  rely-functional-data-structures-demystified
 DTEND;TZID=Asia/Kolkata:20141010T141500
 TRANSP:OPAQUE
@@ -601,7 +601,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T065108Z
 UID:F025C674-F9AA-4403-8425-6FDA947014DE
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/387/re
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/387/re
  altime-distributed-computing-dealing-with-time-and-failure-in-the-wild
 DTEND;TZID=Asia/Kolkata:20141010T141500
 TRANSP:OPAQUE
@@ -630,7 +630,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T065236Z
 UID:758D4B4B-4598-4A64-BE97-271CCC06FB4A
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/359/-a
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/359/-a
  n-introduction-to-continuation-passing-style-cps
 DTEND;TZID=Asia/Kolkata:20141010T153000
 TRANSP:OPAQUE
@@ -660,7 +660,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T065332Z
 UID:ADE0211A-84CF-4252-BBC2-84DAB0CF1FD0
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/383/de
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/383/de
  mystify-the-reactive-jargons
 DTEND;TZID=Asia/Kolkata:20141010T153000
 TRANSP:OPAQUE
@@ -680,7 +680,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T065432Z
 UID:CD745B3A-F4A7-43FA-92CC-08D2C1A5CD26
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/452/el
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/452/el
  ixir-today-a-round-up-on-state-of-elixir-and-its-ecosystem
 DTEND;TZID=Asia/Kolkata:20141010T164500
 TRANSP:OPAQUE
@@ -702,7 +702,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T065735Z
 UID:D206FB63-1BED-4560-97D9-26435D95705C
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/412/ob
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/412/ob
  ject-functional-programming-beautiful-unification-or-a-kitchen-sink
 DTEND;TZID=Asia/Kolkata:20141010T164500
 TRANSP:OPAQUE
@@ -736,7 +736,7 @@ END:VEVENT
 BEGIN:VEVENT
 CREATED:20141007T065902Z
 UID:C651025B-3155-45E4-B1D6-8A4724776A96
-URL;VALUE=URI:http://confengine.com/functional-conf-2014/proposal/712/me
+URL;VALUE=URI:https://confengine.com/functional-conf-2014/proposal/712/me
  thodologies-mathematics-and-the-metalinguistic-implications-of-swift
 DTEND;TZID=Asia/Kolkata:20141010T180000
 TRANSP:OPAQUE
