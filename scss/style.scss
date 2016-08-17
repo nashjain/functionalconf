@@ -388,7 +388,7 @@ b, strong {
     display: block;
     position: relative;
     height: 516px;
-    @include bg-img($color-primary, "map.png", no-repeat);
+    @include bg-img($color-primary, "map.jpg", no-repeat);
     background-size: cover;
     background-position: center center;
     .info {
