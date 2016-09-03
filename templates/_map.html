@@ -1,7 +1,7 @@
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
   function LoadGmaps() {
-    var myLatlng = new google.maps.LatLng(13.042425,77.554721);
+    var myLatlng = new google.maps.LatLng(12.9656980,77.5987670);
     var myOptions = {
       zoom: 16,
       center: myLatlng,
@@ -19,10 +19,10 @@
     var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
-      title:"Mövenpick Hotel and Spa, 115 Gokula Extension, HMT Road (near BEL Circle), Bangalore - 560054"
+      title:"The Chancery Pavilion Hotel, #135, Residency Road  Bangalore - 560025"
     });
     var infowindow = new google.maps.InfoWindow({
-      content: "Mövenpick Hotel and Spa <br /> 115 Gokula Extension,  <br /> HMT Road (near BEL Circle) <br /> Bangalore 560054"
+      content: "The Chancery Pavilion Hotel, <br />#135, Residency Road  <br />Bangalore - 560025"
     });
     google.maps.event.addListener(map, "tilesloaded", function() {
       infowindow.open(map, marker);
