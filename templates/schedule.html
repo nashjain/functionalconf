@@ -7,20 +7,23 @@ page page-schedule
 {% endblock %}
 
 {% block content %}
-    <div class="schedule-wrapper">
+<div class="schedule-wrapper">
     <div class="row">
-          <div class="columns large-9">
+        <div class="columns large-9">
             <h1>Schedule</h1>
 
             <h2 class="head-workshops" id="conference">Conference</h2>
 
-            <iframe src="https://confengine.com/functional-conf-2016/schedule/rich" allowfullscreen height="1000px" width="100%">Loading schedule from https://confengine.com/functional-conf-2016/schedule/rich</iframe>
+            <div id="confengine_embed_content" data-embed-url="https://confengine.com/functional-conf-2016/schedule/rich?theme=light">
+                <h3>Loading...</h3>
+            </div>
+            <script type="text/javascript" src="https://confengine.com/assets/ext/confengine.oembed.min.js"></script>
 
             <div>
                 Not convinced? Check out <a href="/2015/schedule.html">our last year's schedule</a>.
             </div>
 
-          </div>
-       </div>
+        </div>
     </div>
+</div>
 {% endblock %}
