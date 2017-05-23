@@ -1580,13 +1580,18 @@ select {
 /* line 36, ../../scss/foundation/foundation/components/_inline-lists.scss */
 .inline-list > li {
   list-style: none;
-  float: left;
   margin-left: 1.375em;
-  display: block;
+  display: inline-block;
 }
 /* line 41, ../../scss/foundation/foundation/components/_inline-lists.scss */
 .inline-list > li > * {
   display: block;
+}
+
+@media only screen and (min-width: 1080px) {
+    .topnav.inline-list > li {
+        margin-left: 3.5em;
+    }
 }
 
 /* "foundation/components/pagination", */
@@ -1617,7 +1622,7 @@ table tfoot tr th,
 table tfoot tr td {
   padding: 0.5em 0.625em 0.625em;
   font-size: 0.875em;
-  color: rgba(48, 48, 48, 0.72);
+  color: rgba(48, 48, 48, 0.9);
   text-align: left;
 }
 /* line 58, ../../scss/foundation/foundation/components/_tables.scss */
@@ -1625,7 +1630,7 @@ table tr th,
 table tr td {
   padding: 0.5625em 0.625em;
   font-size: 0.75em;
-  color: rgba(68, 68, 68, 0.72);
+  color: rgba(68, 68, 68, 0.9);
 }
 /* line 65, ../../scss/foundation/foundation/components/_tables.scss */
 table tr.even, table tr.alt, table tr:nth-of-type(even) {
@@ -1722,7 +1727,7 @@ pre code {
  */
 /* line 516, ../../scss/typeplate/_typeplate.scss */
 html {
-  font: 400 150%/1.5 "Lato", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 150%/1.5 "Pontano Sans", "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
 }
 
 /* line 524, ../../scss/typeplate/_typeplate.scss */
@@ -1732,7 +1737,7 @@ body {
   -ms-hyphens: auto;
   -o-hyphens: auto;
   hyphens: auto;
-  color: rgba(68, 68, 68, 0.72);
+  color: rgba(68, 68, 68, 0.9);
 }
 
 /* line 535, ../../scss/typeplate/_typeplate.scss */
@@ -2272,7 +2277,7 @@ a:hover {
 
 /* line 66, ../../scss/style.scss */
 .content > div:not(.footer) > .row {
-  padding-bottom: 5.375em;
+  padding-bottom: 3em;
 }
 @media only screen and (max-width: 767px) {
   /* line 66, ../../scss/style.scss */
@@ -2293,13 +2298,12 @@ thead {
 
 /* line 82, ../../scss/style.scss */
 h1, h2, h3, h4, h5 {
-  text-transform: uppercase;
-  color: #896CA1;
+  color: #7C2494;
 }
 
 /* line 87, ../../scss/style.scss */
 b, strong {
-  color: rgba(48, 48, 48, 0.72);
+  color: rgba(48, 48, 48, 0.9);
 }
 
 /* line 91, ../../scss/style.scss */
@@ -2333,13 +2337,14 @@ b, strong {
 /* line 111, ../../scss/style.scss */
 .topnav {
   margin-top: 0.67188em;
-  float: right;
+  text-align: center;
   text-transform: uppercase;
 }
 /* line 115, ../../scss/style.scss */
 .topnav a {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-weight: bold;
 }
 @media only screen and (min-width: 767px) and (max-width: 1280px) {
   /* line 115, ../../scss/style.scss */
@@ -2358,7 +2363,7 @@ b, strong {
   }
   /* line 127, ../../scss/style.scss */
   .topnav a {
-    width: 90px;
+    width: 92px;
     margin-bottom: 10px;
   }
 }
@@ -2640,7 +2645,7 @@ b, strong {
 
 /* line 303, ../../scss/style.scss */
 .speaker-list {
-  margin-top: 5.375em;
+  margin-top: 3em;
 }
 /* line 305, ../../scss/style.scss */
 .speaker-list li {
@@ -2694,7 +2699,7 @@ b, strong {
 .sponsor {
   margin: 1.34375em 0;
   padding: 2.6875em 1.34375em;
-  border: 3px solid #896CA1;
+  border: 1px solid #ede6f3;
   overflow: auto;
 }
 /* line 348, ../../scss/style.scss */
@@ -2938,6 +2943,8 @@ b, strong {
 /* line 536, ../../scss/style.scss */
 .page .logo-wrapper {
   position: relative;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 @media only screen and (min-width: 767px) and (max-width: 1280px) {
   /* line 536, ../../scss/style.scss */
@@ -3123,4 +3130,9 @@ b, strong {
 /* line 694, ../../scss/style.scss */
 .page-venue .button--book {
   margin-bottom: 1.34375em;
+}
+
+.sponsor .columns.large-3 {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
