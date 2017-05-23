@@ -51,10 +51,7 @@ a:hover { color: $color-primary; }
     }
 }
 .content .row > .columns > h1 {
-    margin-top: $gutter-mid;
-    @include respond-to(mobile) {
-        margin-top: $gutter-small;
-    }
+    margin-top: $gutter-small;
 }
 
 .columns.large-12, .content .columns.large-8 {
