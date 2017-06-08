@@ -1727,7 +1727,7 @@ pre code {
  */
 /* line 516, ../../scss/typeplate/_typeplate.scss */
 html {
-  font: 400 150%/1.5 "Pontano Sans", "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+  font: 400 100%/1.5 "Pontano Sans", "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
 }
 
 /* line 524, ../../scss/typeplate/_typeplate.scss */
@@ -1738,6 +1738,7 @@ body {
   -o-hyphens: auto;
   hyphens: auto;
   color: rgba(68, 68, 68, 0.9);
+  font-size: 150%;
 }
 
 /* line 535, ../../scss/typeplate/_typeplate.scss */

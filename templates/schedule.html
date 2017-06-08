@@ -7,22 +7,7 @@ page page-schedule
 {% endblock %}
 
 {% block content %}
-<div class="schedule-wrapper">
-    <div class="row">
-        <div class="columns large-10">
-            <h1>Schedule</h1>
-
-            <h3 class="head-workshops" id="conference">
-                The program committee is working on this year's schedule.
-                <br/><br/>Have a look at last year's schedule in the mean time.
-            </h3>
-
-            <div id="confengine_embed_content" data-embed-url="https://confengine.com/functional-conf-2016/schedule?theme=light">
-                <img src="https://confengine.com/assets/ext/loader.gif">
-                <h5>Loading Schedule...</h5>
-            </div>
-            <script type="text/javascript" src="https://confengine.com/assets/ext/confengine.oembed.min.js"></script>
-        </div>
-    </div>
-</div>
+<div id="ce-content" data-url-ext=".html" data-conf-id="functional-conf-2016" data-screen-name="schedule" style="min-height: 400px; width: 100%; margin: 0 auto"></div>
+<script src="https://embed.confengine.com/app.js"></script>
+<script>$_mod.ready();</script>
 {% endblock %}
