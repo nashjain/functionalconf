@@ -1798,28 +1798,28 @@ h1, h2, h3, h4, h5, h6 {
 /* line 573, ../../scss/typeplate/_typeplate.scss */
 .delta, h3 {
   font-size: 21px ;
-  font-size: 0.875rem ;
+  font-size: 1.3rem ;
   margin-bottom: 1.71429rem;
 }
 
 /* line 573, ../../scss/typeplate/_typeplate.scss */
 .epsilon, h4 {
   font-size: 18px ;
-  font-size: 0.75rem ;
+  font-size: 1.2rem ;
   margin-bottom: 2rem;
 }
 
 /* line 573, ../../scss/typeplate/_typeplate.scss */
 .zeta, h5 {
   font-size: 16px ;
-  font-size: 0.66667rem ;
+  font-size: 1rem ;
   margin-bottom: 2.25rem;
 }
 
 /* line 573, ../../scss/typeplate/_typeplate.scss */
 .small, h6 {
   font-size: 14px ;
-  font-size: 0.58333rem ;
+  font-size: 0.7rem ;
   margin-bottom: 2.57143rem;
 }
 
