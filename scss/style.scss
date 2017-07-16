@@ -190,17 +190,11 @@ b, strong {
 }
 
 .schedule {
-    font-size: 32px;
-    margin-top: 16px;
-    @include respond-to(tablets) {
-        font-size: 16px;
-        margin-top: 8px;
-    }
+    font-size: 16px;
+    margin-top: 8px;
     @include respond-to(mobile) {
-        font-size: 18px;
         margin-top: 6px;
     }
-
 }
 
 .venue {
@@ -334,7 +328,6 @@ b, strong {
             }
         }
     }
-
 }
 
 .sponsor {
@@ -385,7 +378,6 @@ b, strong {
     display: block;
     position: relative;
     height: 516px;
-    @include bg-img($color-primary, "map.png", no-repeat);
     background-size: cover;
     background-position: center center;
     .info {
@@ -407,6 +399,13 @@ b, strong {
             padding: $gutter-tiny;
         }
     }
+}
+
+.map-link-chancery {
+  @include bg-img($color-primary, "chancery_map.png", no-repeat);
+ }
+.map-link-pride {
+  @include bg-img($color-primary, "pride_map.jpg", no-repeat);
 }
 
 .footer {
@@ -497,7 +496,7 @@ b, strong {
     .content {
         a:not(.button) {
             display: inline-block;
-            border-bottom: 2px solid rgba($color-secondary, 0.5);
+            border-bottom: none;
         }
         table {
             a:not(.button) {
@@ -642,7 +641,6 @@ b, strong {
     }
 }
 
-
 .page-about {
     .content {
         .speaker-list {
@@ -682,6 +680,7 @@ b, strong {
         }
     }
 }
+
 .page-venue {
     .content {
         a:not(.button):not(.venue-map) {

@@ -1791,7 +1791,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 573, ../../scss/typeplate/_typeplate.scss */
 .gamma, h2 {
   font-size: 24px ;
-  font-size: 1rem ;
+  font-size: 1.4rem ;
   margin-bottom: 1.5rem;
 }
 
@@ -2456,20 +2456,12 @@ b, strong {
 
 /* line 195, ../../scss/style.scss */
 .schedule {
-  font-size: 32px;
-  margin-top: 16px;
-}
-@media only screen and (min-width: 767px) and (max-width: 1280px) {
-  /* line 195, ../../scss/style.scss */
-  .schedule {
-    font-size: 16px;
-    margin-top: 8px;
-  }
+  font-size: 16px;
+  margin-top: 8px;
 }
 @media only screen and (max-width: 767px) {
   /* line 195, ../../scss/style.scss */
   .schedule {
-    font-size: 18px;
     margin-top: 6px;
   }
 }
@@ -2758,9 +2750,14 @@ b, strong {
   display: block;
   position: relative;
   height: 516px;
-  background: #694586 url('/static/images/map.png?1408881352') no-repeat 0 0;
   background-size: cover;
   background-position: center center;
+}
+.map-link-chancery {
+    background: #694586 url('/static/images/chancery_map.png?1408881352') no-repeat 0 0;
+}
+.map-link-pride {
+    background: #694586 url('/static/images/pride_map.jpg?1408881352') no-repeat 0 0;
 }
 /* line 394, ../../scss/style.scss */
 .map-link .info {
@@ -2902,7 +2899,7 @@ b, strong {
 /* line 501, ../../scss/style.scss */
 .page .content a:not(.button) {
   display: inline-block;
-  border-bottom: 2px solid rgba(137, 108, 161, 0.5);
+  border-bottom: none;
 }
 /* line 506, ../../scss/style.scss */
 .page .content table a:not(.button) {
