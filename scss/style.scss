@@ -404,9 +404,6 @@ b, strong {
 .map-link-chancery {
   @include bg-img($color-primary, "chancery_map.png", no-repeat);
  }
-.map-link-pride {
-  @include bg-img($color-primary, "pride_map.jpg", no-repeat);
-}
 
 .footer {
     color: rgba($color-white, 0.75);

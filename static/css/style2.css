@@ -2756,9 +2756,6 @@ b, strong {
 .map-link-chancery {
     background: #694586 url('/static/images/chancery_map.png?1408881352') no-repeat 0 0;
 }
-.map-link-pride {
-    background: #694586 url('/static/images/pride_map.jpg?1408881352') no-repeat 0 0;
-}
 /* line 394, ../../scss/style.scss */
 .map-link .info {
   position: absolute;
