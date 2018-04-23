@@ -1,7 +1,7 @@
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
   function LoadGmaps() {
-    var myLatlng = new google.maps.LatLng(12.981093,77.575989,15);
+    var myLatlng = new google.maps.LatLng(12.9919749,77.581773,15);
     var myOptions = {
       zoom: 16,
       center: myLatlng,
@@ -19,10 +19,10 @@
     var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
-      title:"Fortune Park JP Celestial Hotel, No. 5/43, Race Course Road, Bengaluru 560009"
+      title:"The LaLiT Ashok Bangalore, Kumara Krupa High Grounds, Bengaluru 560001 India – +91-80-3052-7777"
     });
     var infowindow = new google.maps.InfoWindow({
-      content: "Fortune Park JP Celestial Hotel, <br />No. 5/43, Race Course Road <br />Bengaluru - 560009"
+      content: "The LaLiT Ashok Bangalore, <br />Kumara Krupa High Grounds <br />Bengaluru - 560001"
     });
     google.maps.event.addListener(map, "tilesloaded", function() {
       infowindow.open(map, marker);
