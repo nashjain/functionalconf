@@ -1,7 +1,7 @@
-<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyC6ZDHqWxJFDXFVKqC1lnOn1MEK1s0YxEA"></script>
 <script type="text/javascript">
   function LoadGmaps() {
-    var myLatlng = new google.maps.LatLng(12.9919749,77.581773,15);
+    var myLatlng = new google.maps.LatLng(12.970594,77.608145,15);
     var myOptions = {
       zoom: 16,
       center: myLatlng,
@@ -19,10 +19,10 @@
     var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
-      title:"The Lalit Ashok Bangalore, Kumara Krupa High Grounds, Bengaluru 560001 India – +91-80-3052-7777"
+      title:"The Grand Magrath Hotel #30 Magrath Road Bangalore - 560025, India – +91-80-2555-1555"
     });
     var infowindow = new google.maps.InfoWindow({
-      content: "The Lalit Ashok Bangalore, <br />Kumara Krupa High Grounds <br />Bengaluru - 560001"
+      content: "The Grand Magrath Hotel <br/>#30 Magrath Road <br/>Bangalore - 560025, India <br/>+91-80-2555-1555"
     });
     google.maps.event.addListener(map, "tilesloaded", function() {
       infowindow.open(map, marker);
