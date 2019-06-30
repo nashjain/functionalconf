@@ -1,6 +1,6 @@
 {% extends "_base.html" %}
 
-{% block title %}Functional Conf - Asia's Premier Functional Programming Conference{% endblock %}
+{% block title %}Functional Conf 2018 - Asia's Premier Functional Programming Conference{% endblock %}
 
 {% block body_classes %}
 page-index
@@ -10,7 +10,7 @@ page-index
 <div class="header dark">
     <div class="row row--topnav">
         <div class="large-12 columns">
-            {% include "_topnav.html" %}
+      {% include "_topnav_past.html" %}
         </div>
     </div>
     <div class="row row--header">
@@ -19,13 +19,12 @@ page-index
         <div class="columns large-7 intro-wrapper">
             <h1 class="logo">Functional Conf</h1>
             <div class="subtitle">Asia's Premier Functional Programming Conference</div>
-            <a class="schedule" href="schedule.html">Nov 13&mdash;17, 2019</a>
+            <a class="schedule" href="schedule.html">Dec 12&mdash;16, 2018</a>
             <a class="venue" href="venue.html">
-                ITC WelcomHotel<br/>
+                The Grand Magrath Hotel<br/>
                 Bengaluru
             </a>
-            <a class="button button--register" href="https://confengine.com/functional-conf-2019/register/selection" target="_blank">Register</a>
-            <a class="button button--register" href="https://confengine.com/functional-conf-2019/proposals">Propose a Topic</a>
+            <a class="button button--register" href="https://confengine.com/functional-conf-2018/schedule/rich">Schedule</a>
             <ul class="langs inline-list">
                 <li class="lang-clojure"></li>
                 <li class="lang-erlang"></li>
@@ -49,44 +48,34 @@ page-index
         <div class="columns large-8 large-offset-1">
             <h1>About the Conference</h1>
 
-            <p>Functional programming (FP) has been a hot research topic for over three decades now. However, in the last five years, driven by the need to <em>build massively concurrent systems</em> and to <em>handle big-data in smarter ways</em>, diverse companies - ranging from tech start-ups to
-                financial institutes - are rapidly adopting FP concepts.</p>
-            <p>Currently, FP is at the heart of every new generation programming technology. Companies are employing FP to actuate more <em>effective, robust, and flexible </em>software development. This has given birth to an extremely vibrant community of functional programmers, who are constantly
-                exploring new and varied ways to bring in FP concepts to the enterprise software development world.</p>
-            <p><strong>Functional Conf </strong>is designed to bring together the growing community of functional programmers under one roof. </p>
-
-            <div style="text-align: center; margin: 1.5em auto">
-                <img src="/static/images/code-beam-lite.jpg" style="max-width: 100%">
-                <br>First Code Beam Lite Conference in India
-                <br>Nov 14th, Hosted by Functional Conf
-                <p style="text-align: left; font-size: 0.65em">Explore how BEAM technologies, including Erlang and Elixir, are employed in some of the world's most cutting edge development.</p>
-            </div>
-
             <div style="width: 150%; padding: 20px 0; text-align: center">
                 <div style="float: left; padding-right: 15px">
                     <iframe width="450" height="305" src="//www.youtube.com/embed/videoseries?list=PL9Z-JgiTsOYTtq49muYrjsERqTZcahEZL" frameborder="0" allowfullscreen></iframe>
                     <a href="https://www.youtube.com/playlist?list=PL9Z-JgiTsOYTtq49muYrjsERqTZcahEZL" target="_blank">
-                        <h4>Videos from Functional Conf 2018</h4>
+                        <h3>Videos from Functional Conf 2018</h3>
                     </a>
                 </div>
                 <div style="float: left">
                     <iframe width="450" height="305" src="https://www.youtube.com/embed/rZ_7sB3l3S8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <a href="https://photos.app.goo.gl/2mBRPjGMaC14XJbN6" target="_blank">
-                        <h4>Photos from Functional Conf 2018</h4>
+                        <h3>Photos from Functional Conf 2018</h3>
                     </a>
                 </div>
                 <div style="clear: both"></div>
             </div>
-
-            <h2>Agenda</h2>
+            <p>Functional programming (FP) has been a hot research topic for over three decades now. However, in the last five years, driven by the need to <em>build massively concurrent systems</em> and to <em>handle big-data in smarter ways</em>, diverse companies - ranging from tech start-ups to
+                financial institutes - are rapidly adopting FP concepts.</p>
+            <p>Currently, FP is at the heart of every new generation programming technology. Companies are employing FP to actuate more <em>effective, robust, and flexible </em>software development. This has given birth to an extremely vibrant community of functional programmers, who are constantly
+                exploring new and varied ways to bring in FP concepts to the enterprise software development world.</p>
+            <p><strong>Functional Conf </strong>is designed to bring together the growing community of functional programmers under one roof. </p>
             <p>In 2018, we plan to structure the conference as follows:</p>
             <ul>
                 <li><b>Pre-Conference Paid Workshops</b> - Full Day hands-on workshops by our international speakers to allow you to go deep into a specific topic. Each workshop is capped at around 20 participants.</li>
                 <li>
                     <b>FP Bootcamp</b>: A full day program for Developers, who want to kick start their FP journey. Participants would be able to pick anyone from the following tracks and stick to it for the full day.
                     <ul>
-                        <li>Code Beam Lite</li>
                         <li>Haskell Ecosystem</li>
+                        <li>Erlang Ecosystem</li>
                         <li>JVM Ecosystem</li>
                     </ul>
                 </li>
@@ -147,21 +136,15 @@ page-index
                     </a>
                 </li>
                 <li>
-                    <a href="https://confengine.com/user/bruce-tate" target="_blank">
-                        <img src="https://res.cloudinary.com/dnnqsdghx/image/upload/w_201,h_201,f_auto,q_auto:best,c_thumb,g_face,z_0.8/v1561859650/ProfilePics/rshst2vnpiw7ne6utpvd.jpg" alt="Bruce Tate" title="Bruce Tate"/>
-                        <h3 class="name">Bruce Tate</h3>
-                    </a>
-                </li>
-                <li>
                     <a href="https://confengine.com/user/debasish-ghosh" target="_blank">
                         <img src="/static/images/speakers/debasish.png" alt="Debasish Ghosh" title="Debasish Ghosh"/>
                         <h3 class="name">Debasish Ghosh</h3>
                     </a>
                 </li>
                 <li>
-                    <a href="https://confengine.com/user/edward-kmett" target="_blank">
-                        <img src="https://res.cloudinary.com/dnnqsdghx/image/upload/w_201,h_201,f_auto,q_auto:best,c_thumb,g_face,z_0.8/v1517982293/ProfilePics/upgzgcmwthytphxhuxip.png" alt="Edward Kmett" title="Edward Kmett"/>
-                        <h3 class="name">Edward Kmett</h3>
+                    <a href="https://github.com/emilypi" target="_blank">
+                        <img src="https://www.gravatar.com/avatar/43107bacd6da96e9b3e82d66d65110cb?s=201&r=pg&d=mm" alt="Emily Pillmore" title="Emily Pillmore"/>
+                        <h3 class="name">Emily Pillmore</h3>
                     </a>
                 </li>
                 <li>
@@ -235,7 +218,7 @@ page-index
             </div>
 
             <div style="text-align: center">
-                <a class="button dark" href="https://confengine.com/functional-conf-2019/sponsor#guide" target="_blank">Become a Sponsor</a>
+                <a class="button dark" href="https://confengine.com/functional-conf-2018/sponsor#guide" target="_blank">Become a Sponsor</a>
             </div>
 
         </div>

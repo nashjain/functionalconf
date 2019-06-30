@@ -35,8 +35,7 @@
                 }
 
 				var albumJsonUrl = '<script src="https://picasaweb.google.com/data/feed/base/user/' + settings.userid + '/albumid/' + settings.albumid 
-					+ '?alt=json&kind=photo&max-results=' + settings.maxresults + '&hl=en_US&imgmax=' + settings.imgmax  
-					+ authKeyStr
+					+ '?alt=json&kind=photo&max-results=' + settings.maxresults + '&hl=en_US&imgmax=' + settings.imgmax					+ authKeyStr
 					+ '&callback=jQuery.fn.googleslides.prepare_' + settings.albumid + '&fields=link,entry(link,media:group(media:content,media:description))">' 
 					+ '</sc' + 'ript>';
 				
@@ -118,8 +117,7 @@
 		}
 	}
 
-  $.fn.googleslides = function(method) {  
-		 // Method calling logic
+  $.fn.googleslides = function(method) {		 // Method calling logic
 		if ( methods[method] ) {
 		  return methods[ method ].apply( this, Array.prototype.slice.call( arguments, 1 ));
 		} else if ( typeof method === 'object' || ! method ) {
